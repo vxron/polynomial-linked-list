@@ -8,7 +8,7 @@
 class Poly
 {
 private:
-	// must contain this private field, and you can define other private fields
+	// dummy header
 	PolyNode* head = NULL;
 
 public:
