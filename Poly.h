@@ -21,8 +21,8 @@ public:
 	void multiplyMono(int i, double c);
 	void multiplyPoly(const Poly& p);
 	void duplicate(Poly& outputPoly);
-	int getDegree();
-	int getTermsNo();
+	int getDegree() const;
+	int getTermsNo() const;
 	double evaluate(double x);
 	std::string toString();
 
